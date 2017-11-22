@@ -36,7 +36,16 @@
     <mvc:annotation-driven />
     
     <!-- 静态资源处理，css、js、imgs -->
-    <mvc:resources location="/resources/" mapping="/resources/**" />
+    <mvc:resources location="/resources/images/" mapping="/images/**" />
+    <mvc:resources location="/resources/css/" mapping="/css/**" />
+    <mvc:resources location="/resources/js/" mapping="/js/**" />
+    <mvc:resources location="/resources/font/" mapping="/font/**" />
+    <mvc:resources location="/resources/font-awesome/" mapping="/font-awesome/**" />
+    <mvc:resources location="/resources/bootstrap-3.3.5-dist/" mapping="/bootstrap-3.3.5-dist/**" />
+    <mvc:resources location="/resources/script/" mapping="/script/**" />
+    <mvc:resources location="/resources/img/" mapping="/img/**" />
+    <mvc:resources location="/resources/ui-layout-0.0.0/" mapping="/ui-layout-0.0.0/**" />
+    <mvc:resources location="/resources/json/" mapping="/json/**" />
     
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 	  <property name="prefix" value="/WEB-INF/jsp/"></property>

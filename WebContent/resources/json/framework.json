@@ -1,0 +1,44 @@
+{
+	"name": "根节点",
+	"value": "d3d912",
+	"children": [
+		{
+			"name": "一级节点1",
+			"value": "9bb946",
+			"children": [
+				{
+					"name": "二级节点1",
+					"value": "ed91d1",
+					"children": [
+						{
+							"name": "三级节点1",
+							"value": "4f0bb8",
+							"children": [
+								{
+									"name": "四级节点1",
+									"value": "a0b641"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "一级节点2",
+			"value": "8939d6",
+			"children": [
+				{
+					"name": "二级节点2",
+					"value": "9124b6",
+					"children": [
+						{
+							"name": "三级节点2",
+							"value": "d53768"
+						}
+					]
+				}
+			]
+		}
+	]
+}
